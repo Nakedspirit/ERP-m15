@@ -1,0 +1,838 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* sale diamant
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20130627-231102\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-15 13:33+0000\n"
+"PO-Revision-Date: 2013-08-15 13:33+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: diamant
+#: code:addons/diamant/base.py:189
+#: view:res.partner:0
+#: field:res.partner,passport_series:0
+#, python-format
+msgid "Passport series"
+msgstr "Серия паспорта"
+
+#. module: diamant
+#: code:addons/diamant/package.py:49
+#: field:package.sale.order,name:0
+#, python-format
+msgid "Package Number"
+msgstr "Номер пакета"
+
+#. module: diamant
+#: code:addons/diamant/base.py:240
+#: field:res.partner,jzip:0
+#, python-format
+msgid "Zip"
+msgstr "Индекс"
+
+#. module: diamant
+#: code:addons/diamant/base.py:80
+#: field:sale.order,customer_id:0
+#, python-format
+msgid "Real customer"
+msgstr "Заявитель"
+
+#. module: diamant
+#: code:addons/diamant/base.py:201
+#: view:res.partner:0
+#: field:res.partner,passport_division:0
+#, python-format
+msgid "Passport division"
+msgstr "Подразделение"
+
+#. module: diamant
+#: field:sale.order,number_old:0
+msgid "Old number of card"
+msgstr "Номер заменяемой карты"
+
+#. module: diamant
+#: view:package.sale.order:0
+msgid "Internal Notes"
+msgstr "Памятка"
+
+#. module: diamant
+#: field:package.sale.order,is_processed:0
+msgid "Is processed"
+msgstr "Отработано"
+
+#. module: diamant
+#: help:package.sale.order,is_processed:0
+msgid "Check if the package processed"
+msgstr "Помечено, если пакет отработан"
+
+#. module: diamant
+#: help:res.partner,passport_issued_date:0
+msgid "Passport issued date"
+msgstr "Дата выпуска паспорта"
+
+#. module: diamant
+#: code:addons/diamant/base.py:182
+#: view:res.partner:0
+#: field:res.partner,name_first:0
+#: help:res.partner,name_first:0
+#, python-format
+msgid "First name"
+msgstr "Имя"
+
+#. module: diamant
+#: model:ir.model,name:diamant.model_stock_production_lot
+msgid "Serial Number"
+msgstr "Номер карты"
+
+#. module: diamant
+#: code:addons/diamant/base.py:217
+#: view:res.partner:0
+#: field:res.partner,driverlicense_country:0
+#, python-format
+msgid "Driver license country"
+msgstr "Страна удостоверения"
+
+#. module: diamant
+#: constraint:stock.production.lot:0
+msgid "You must assign a skzi number for this serial."
+msgstr "Вы указали номер СКЗИ не по маске"
+
+#. module: diamant
+#: constraint:stock.production.lot:1
+msgid "You must assign a card number for this serial."
+msgstr "Вы указали номер карты не по маске"
+
+#. module: diamant
+#: view:res.partner:0
+msgid "Driver license organisation"
+msgstr "Организация, выдавшя удостоверение"
+
+#. module: diamant
+#: view:res.partner:0
+msgid "ZIP"
+msgstr "Индекс"
+
+#. module: diamant
+#: code:addons/diamant/base.py:184
+#: view:res.partner:0
+#: field:res.partner,name_last:0
+#: help:res.partner,name_last:0
+#, python-format
+msgid "Last name"
+msgstr "Фамилия"
+
+#. module: diamant
+#: code:addons/diamant/package.py:53
+#: field:package.sale.order,comment:0
+#, python-format
+msgid "Notes"
+msgstr "Заметки"
+
+#. module: diamant
+#: view:res.partner:0
+msgid "Mobile:"
+msgstr "Мобтелефон"
+
+#. module: diamant
+#: code:addons/diamant/base.py:221
+#: field:res.partner,driverlicense_org:0
+#, python-format
+msgid "Driver license org"
+msgstr "Организация, выдавшая удостоверение"
+
+#. module: diamant
+#: code:addons/diamant/package.py:57
+#: field:package.sale.order,xml_file:0
+#, python-format
+msgid "Xml from agent"
+msgstr "XML файл, полученный от агента"
+
+#. module: diamant
+#: code:addons/diamant/package.py:67
+#, python-format
+msgid "Inside package must be orders with type!"
+msgstr "Внутри пакета должна быть заявки с типом"
+
+#. module: diamant
+#: code:addons/diamant/base.py:97
+#: code:addons/diamant/base.py:111
+#: code:addons/diamant/base.py:136
+#: code:addons/diamant/base.py:141
+#: code:addons/diamant/base.py:143
+#: code:addons/diamant/package.py:67
+#: code:addons/diamant/package.py:70
+#: code:addons/diamant/package.py:74
+#: code:addons/diamant/package.py:79
+#: code:addons/diamant/package.py:84
+#: code:addons/diamant/package.py:104
+#, python-format
+msgid "Hi!"
+msgstr "Привет!"
+
+#. module: diamant
+#: code:addons/diamant/base.py:265
+#: sql_constraint:res.partner:0
+#, python-format
+msgid "OGRN must be unique!"
+msgstr "ОГРН должен быть уникальным"
+
+#. module: diamant
+#: view:sale.order:0
+msgid "Send to FBU"
+msgstr "Отправить в ФБУ"
+
+#. module: diamant
+#: model:ir.model,name:diamant.model_res_partner
+msgid "Partner"
+msgstr "Агент"
+
+#. module: diamant
+#: model:ir.model,name:diamant.model_sale_order
+msgid "Sales Order"
+msgstr "Заявка"
+
+#. module: diamant
+#: view:package.sale.order:0
+msgid "Partners"
+msgstr "Агенты"
+
+#. module: diamant
+#: help:res.partner,driverlicense_number:0
+msgid "Driver license number."
+msgstr "Номер удостоверения"
+
+#. module: diamant
+#: code:addons/diamant/base.py:249
+#: view:res.partner:0
+#: field:res.partner,order_responsible_person_date:0
+#: help:res.partner,order_responsible_person_date:0
+#, python-format
+msgid "Date of responsible persons order appointing"
+msgstr "Дата приказа отв. лица"
+
+#. module: diamant
+#: model:ir.model,name:diamant.model_package_sale_order
+msgid "package.sale.order"
+msgstr "package.sale.order(rus)"
+
+#. module: diamant
+#: code:addons/diamant/base.py:242
+#: view:res.partner:0
+#: field:res.partner,jstate_id:0
+#, python-format
+msgid "State"
+msgstr "Регион"
+
+#. module: diamant
+#: field:package.sale.order,agent_id:0
+msgid "Agent"
+msgstr "Агент"
+
+#. module: diamant
+#: view:sale.order:0
+msgid "Print"
+msgstr "Печатать"
+
+#. module: diamant
+#: code:addons/diamant/package.py:54
+#: field:package.sale.order,order_sum:0
+#, python-format
+msgid "Number of orders"
+msgstr "Количество заявок"
+
+#. module: diamant
+#: view:res.partner:0
+msgid "Fax:"
+msgstr "Факс:"
+
+#. module: diamant
+#: view:res.partner:0
+msgid "Phone:"
+msgstr "Телефон:"
+
+#. module: diamant
+#: field:res.partner,jtype:0
+msgid "Address Type"
+msgstr "Тип адреса"
+
+#. module: diamant
+#: help:res.partner,passport_issued_by:0
+msgid "Passport issued by."
+msgstr "Кто выдал паспорт"
+
+#. module: diamant
+#: view:package.sale.order:0
+msgid "Count application without FLK"
+msgstr "Количество заявок в файле без ФЛК"
+
+#. module: diamant
+#: code:addons/diamant/base.py:245
+#: view:res.partner:0
+#: field:res.partner,order_responsible_person_number:0
+#: help:res.partner,order_responsible_person_number:0
+#, python-format
+msgid "Number of responsible persons order appointing"
+msgstr "Номер приказа отв. лица"
+
+#. module: diamant
+#: view:sale.order:0
+msgid "Send by Email"
+msgstr "Послать Email"
+
+#. module: diamant
+#: code:addons/diamant/skzi.py:34
+#: field:skzi.numbers,name:0
+#: field:stock.production.lot,skzi:0
+#, python-format
+msgid "SKZI Number"
+msgstr "Номер СКЗИ"
+
+#. module: diamant
+#: view:res.partner:0
+#: selection:res.partner,jtype:0
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: diamant
+#: code:addons/diamant/base.py:193
+#: view:res.partner:0
+#: field:res.partner,passport_number:0
+#, python-format
+msgid "Passport number"
+msgstr "Номер паспорта"
+
+#. module: diamant
+#: code:addons/diamant/base.py:186
+#: view:res.partner:0
+#, python-format
+msgid "Birth date"
+msgstr "День рождения"
+
+#. module: diamant
+#: view:res.partner:0
+#: help:res.partner,driverlicense_issued_date:0
+msgid "Driver license issued date"
+msgstr "Дата выдачи удостоверения"
+
+#. module: diamant
+#: code:addons/diamant/base.py:111
+#: code:addons/diamant/base.py:136
+#: code:addons/diamant/base.py:141
+#: code:addons/diamant/base.py:143
+#, python-format
+msgid "In order must include one and only one order line!"
+msgstr "В заявке должно содержать одну и только одну карту"
+
+#. module: diamant
+#: model:ir.actions.act_window,name:diamant.skzi_numbers
+#: model:ir.ui.menu,name:diamant.menu_skzi_order
+#: view:skzi.numbers:0
+msgid "SKZI"
+msgstr "СКЗИ"
+
+#. module: diamant
+#: field:sale.order,image:0
+msgid "Image"
+msgstr "Картинка"
+
+#. module: diamant
+#: code:addons/diamant/base.py:97
+#, python-format
+msgid "Your data were saved successfully"
+msgstr "Ваши данные сохранены"
+
+#. module: diamant
+#: code:addons/diamant/base.py:180
+#: field:res.partner,image_sign:0
+#, python-format
+msgid "Sign"
+msgstr "Подпись"
+
+#. module: diamant
+#: code:addons/diamant/base.py:229
+#: view:res.partner:0
+#: field:res.partner,inn:0
+#: help:res.partner,inn:0
+#, python-format
+msgid "INN"
+msgstr "ИНН 10 или 12 цифр"
+
+#. module: diamant
+#: code:addons/diamant/base.py:205
+#: view:res.partner:0
+#: field:res.partner,passport_issued_date:0
+#, python-format
+msgid "Passport issued date"
+msgstr "Дата выдачи паспорта"
+
+#. module: diamant
+#: help:res.partner,passport_number:0
+msgid "Passport number"
+msgstr "Номер паспорта"
+
+#. module: diamant
+#: help:stock.production.lot,skzi:0
+msgid "SKZI number"
+msgstr "Номер СКЗИ"
+
+#. module: diamant
+#: code:addons/diamant/package.py:118
+#: code:addons/diamant/skzi.py:39
+#: sql_constraint:package.sale.order:0
+#: sql_constraint:skzi.numbers:0
+#, python-format
+msgid "name must be unique!"
+msgstr "Имя должно быть уникально!"
+
+#. module: diamant
+#: code:addons/diamant/base.py:266
+#: sql_constraint:res.partner:0
+#, python-format
+msgid "agent_id must be unique!"
+msgstr "Агент должен быть уникальный"
+
+#. module: diamant
+#: view:res.partner:0
+msgid "Street..."
+msgstr "Улица..."
+
+#. module: diamant
+#: view:package.sale.order:0
+msgid "XML-file of package"
+msgstr "XML-файл пакета"
+
+#. module: diamant
+#: field:skzi.numbers,is_used:0
+msgid "Is used"
+msgstr "Использовано"
+
+#. module: diamant
+#: view:res.partner:0
+msgid "Tags..."
+msgstr "Теги..."
+
+#. module: diamant
+#: field:sale.order,has_image:0
+msgid "unknown"
+msgstr "неизвестно"
+
+#. module: diamant
+#: code:addons/diamant/base.py:239
+#: field:res.partner,jstreet2:0
+#, python-format
+msgid "Street2"
+msgstr "Улица2"
+
+#. module: diamant
+#: code:addons/diamant/base.py:183
+#: view:res.partner:0
+#: field:res.partner,name_middle:0
+#: help:res.partner,name_middle:0
+#, python-format
+msgid "Middle name"
+msgstr "Отчество"
+
+#. module: diamant
+#: code:addons/diamant/package.py:51
+#: field:package.sale.order,date:0
+#: help:package.sale.order,date:0
+#, python-format
+msgid "Package date"
+msgstr "Дата пакета"
+
+#. module: diamant
+#: help:skzi.numbers,is_used:0
+msgid "Check if the number already used"
+msgstr "Помечено, если номер уже использован"
+
+#. module: diamant
+#: field:package.sale.order,is_xsdvalid:0
+msgid "Is xsd valid"
+msgstr "Пакет валиден по схеме"
+
+#. module: diamant
+#: view:package.sale.order:0
+msgid "Package processed?"
+msgstr "Пакет отработан?"
+
+#. module: diamant
+#: model:ir.actions.act_window,name:diamant.package_orders
+#: model:ir.ui.menu,name:diamant.menu_package_order
+msgid "Packages"
+msgstr "Пакеты"
+
+#. module: diamant
+#: selection:res.partner,jtype:0
+msgid "Default"
+msgstr "По-умолчанию"
+
+#. module: diamant
+#: model:ir.actions.act_window,help:diamant.package_orders
+#: model:ir.actions.act_window,help:diamant.skzi_numbers
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a quotation that can be converted into a sales\n"
+"                order.\n"
+"              </p><p>\n"
+"                OpenERP will help you efficiently handle the complete sales flow:\n"
+"                quotation, sales order, delivery, invoicing and payment.\n"
+"              </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                Кликните для создания заявки, которая может стать заказом.\n"
+"              </p><p>\n"
+"                OpenERP вам поможет эффективно заполнить заказ:\n"
+"                заявку, доставку, счет и платеж.\n"
+"              </p>\n"
+"            "
+
+#. module: diamant
+#: view:res.partner:0
+#: field:res.partner,old_id:0
+#: help:res.partner,old_id:0
+#, python-format
+msgid "Old partner"
+msgstr "Предыдущий"
+
+#. module: diamant
+#: view:res.partner:0
+#: field:res.partner,fullname:0
+#: help:res.partner,fullname:0
+#, python-format
+msgid "Full name"
+msgstr "Полное имя"
+
+#. module: diamant
+#: view:res.partner:0
+#: field:res.partner,mark_number:0
+#: help:res.partner,mark_number:0
+#, python-format
+msgid "Mark number"
+msgstr "Клеймо"
+
+#. module: diamant
+#: view:res.partner:0
+#: field:res.partner,agent_id:0
+#: help:res.partner,agent_id:0
+#, python-format
+msgid "Agent ID"
+msgstr "Агентский ид."
+
+#. module: diamant
+#: view:res.partner:0
+#: field:res.partner,ogrn:0
+#, python-format
+msgid "OGRN"
+msgstr "ОГРН"
+
+#. module: diamant
+#: view:res.partner:0
+#: field:res.partner,okpo:0
+#: help:res.partner,okpo:0
+#, python-format
+msgid "OKPO"
+msgstr "ОКПО"
+
+#. module: diamant
+#: view:res.partner:0
+#: field:res.partner,okato:0
+#: help:res.partner,okato:0
+#, python-format
+msgid "OKATO"
+msgstr "ОКАТО"
+
+#. module: diamant
+#: view:res.partner:0
+#: field:res.partner,okved:0
+#: help:res.partner,okved:0
+#, python-format
+msgid "OKVED"
+msgstr "ОКВЭД"
+
+#. module: diamant
+#: view:res.partner:0
+#: field:res.partner,kpp:0
+#: help:res.partner,kpp:0
+#, python-format
+msgid "KPP"
+msgstr "КПП"
+
+#. module: diamant
+#: help:res.partner,passport_series:0
+msgid "Passport series"
+msgstr "Серия паспорта"
+
+#. module: diamant
+#: view:package.sale.order:0
+msgid "History"
+msgstr "История"
+
+#. module: diamant
+#: code:addons/diamant/base.py:225
+#: field:res.partner,driverlicense_issued_date:0
+#, python-format
+msgid "Driver license date"
+msgstr "Дата выдачи удостоверения"
+
+#. module: diamant
+#: view:package.sale.order:0
+#: view:skzi.numbers:0
+msgid "Sales"
+msgstr "Заявки"
+
+#. module: diamant
+#: help:package.sale.order,is_xsdvalid:0
+msgid "Check if the package xsd valid"
+msgstr "Помечено, если пакет валиден по схеме"
+
+#. module: diamant
+#: code:addons/diamant/base.py:260
+#: constraint:res.partner:0
+#, python-format
+msgid "You must assign a agent_id \"FLGMN\""
+msgstr "Вы должны ввести агентский идентификатор согласно маске \"FLGMN\""
+
+#. module: diamant
+#: code:addons/diamant/base.py:274
+#: constraint:res.partner:1
+#, python-format
+msgid "You must assign a snils, passport_number, passport_division"
+msgstr "Вы должны ввести СНИЛС, номер и подразделение паспорта согласно маске"
+
+#. module: diamant
+#: code:addons/diamant/base.py:274
+#: constraint:res.partner:1
+#, python-format
+msgid "You must assign a inn, ogrn"
+msgstr "Вы должны ввести ИНН и ОГРН согласно маске"
+
+#. module: diamant
+#: view:res.partner:0
+msgid "Legal adreess"
+msgstr "Юридический адрес"
+
+#. module: diamant
+#: selection:res.partner,jtype:0
+msgid "Invoice"
+msgstr "Счет"
+
+#. module: diamant
+#: code:addons/diamant/base.py:213
+#: view:res.partner:0
+#: field:res.partner,driverlicense_number:0
+#, python-format
+msgid "Driver license number"
+msgstr "Номер удостоверения"
+
+#. module: diamant
+#: code:addons/diamant/base.py:241
+#: view:res.partner:0
+#: field:res.partner,jcity:0
+#, python-format
+msgid "City"
+msgstr "Город"
+
+#. module: diamant
+#: view:res.partner:0
+#: field:res.partner,snils_inn:0
+#, python-format
+msgid "SNILS or INN"
+msgstr "СНИЛС или ИНН"
+
+#. module: diamant
+#: help:res.partner,snils_inn:0
+msgid "Number of insurance ex.'123-123-123 12' or Personal identification number 10 or 12 digits"
+msgstr "СНИЛС напр.'123-123-123 12' или ИНН 10 или 12 цифр"
+
+#. module: diamant
+#: view:package.sale.order:0
+msgid "Put an internal note..."
+msgstr "Записывайте здесь..."
+
+#. module: diamant
+#: code:addons/diamant/base.py:155
+#: sql_constraint:sale.order:0
+#, python-format
+msgid "CardRef must be unique!"
+msgstr "Ссылка на карту не должна повторяться"
+
+#. module: diamant
+#: help:res.partner,driverlicense_series:0
+msgid "Driver license series"
+msgstr "Серия удостоверения"
+
+#. module: diamant
+#: selection:res.partner,jtype:0
+msgid "Other"
+msgstr "Другое"
+
+#. module: diamant
+#: view:res.partner:0
+msgid "e.g. Sales Director"
+msgstr "напр. водитель"
+
+#. module: diamant
+#: help:res.partner,driverlicense_country:0
+msgid "Driver license country"
+msgstr "Страна удостоверения"
+
+#. module: diamant
+#: code:addons/diamant/base.py:197
+#: view:res.partner:0
+#: field:res.partner,passport_issued_by:0
+#, python-format
+msgid "Passport issued by"
+msgstr "Кто выдал паспорт"
+
+#. module: diamant
+#: code:addons/diamant/package.py:70
+#, python-format
+msgid "In order must include only one order line!"
+msgstr "В заявке должна быть только одна карта"
+
+#. module: diamant
+#: view:package.sale.order:0
+#: view:skzi.numbers:0
+msgid "Search Package"
+msgstr "Поиск пакета"
+
+#. module: diamant
+#: code:addons/diamant/serial.py:79
+#: sql_constraint:stock.production.lot:0
+#, python-format
+msgid "SKZI Number must be unique!"
+msgstr "Номер СКЗИ должен быть уникальным"
+
+#. module: diamant
+#: code:addons/diamant/serial.py:80
+#: sql_constraint:stock.production.lot:0
+#, python-format
+msgid "Card Number must be unique!"
+msgstr "Номер карты должен быть уникальным"
+
+#. module: diamant
+#: help:res.partner,driverlicense_org:0
+msgid "Driver license org"
+msgstr "Организация, выдавшая удостоверение"
+
+#. module: diamant
+#: view:res.partner:0
+msgid "Address"
+msgstr "Адрес"
+
+#. module: diamant
+#: view:package.sale.order:0
+msgid "XSD valid?"
+msgstr "Пакет валиден по схеме?"
+
+#. module: diamant
+#: help:res.partner,passport_division:0
+msgid "Passport division"
+msgstr "Подразделение, выдавшее паспорт"
+
+#. module: diamant
+#: view:package.sale.order:0
+#: view:skzi.numbers:0
+msgid "Name"
+msgstr "Имя"
+
+#. module: diamant
+#: view:package.sale.order:0
+#: field:sale.order,partner_package_id:0
+msgid "Package"
+msgstr "Пакет"
+
+#. module: diamant
+#: model:ir.model,name:diamant.model_skzi_numbers
+msgid "skzi.numbers"
+msgstr "skzi.numbers(rus)"
+
+#. module: diamant
+#: code:addons/diamant/base.py:243
+#: view:res.partner:0
+#: field:res.partner,jcountry_id:0
+#, python-format
+msgid "Country"
+msgstr "Страна"
+
+#. module: diamant
+#: selection:res.partner,jtype:0
+msgid "Shipping"
+msgstr "Адрес доставки"
+
+#. module: diamant
+#: code:addons/diamant/base.py:209
+#: view:res.partner:0
+#: field:res.partner,driverlicense_series:0
+#, python-format
+msgid "Driver license series"
+msgstr "Серия удостоверения"
+
+#. module: diamant
+#: code:addons/diamant/package.py:74
+#: code:addons/diamant/package.py:79
+#: code:addons/diamant/package.py:84
+#: code:addons/diamant/package.py:104
+#, python-format
+msgid "Inside package must be homogeneously orders!"
+msgstr "Внутри пакета заявки должны быть однотипными"
+
+#. module: diamant
+#: field:stock.production.lot,order_id:0
+msgid "Order"
+msgstr "Заявка"
+
+#. module: diamant
+#: model:ir.actions.report.xml,name:diamant.fbu_report
+msgid "Fbu"
+msgstr "ФБУ"
+
+#. module: diamant
+#: help:res.partner,jtype:0
+msgid "Used to select automatically the right address according to the context in sales and purchases documents."
+msgstr "Использовать для автоматического выбора верного адреса в контексте заявки или отгрузки документов"
+
+#. module: diamant
+#: help:package.sale.order,xml_file:0
+msgid "Xml message with orders package from agent"
+msgstr "XML сообщение с пакетом заявок от агента"
+
+#. module: diamant
+#: code:addons/diamant/base.py:238
+#: field:res.partner,jstreet:0
+#, python-format
+msgid "Street"
+msgstr "Улица"
+
+#. module: diamant
+#: help:res.partner,image_sign:0
+#: help:sale.order,image:0
+msgid "This field holds the image used as avatar for this contact, limited to 1024x1024px"
+msgstr "Это поле для фото контакта"
+
+#. module: diamant
+#: code:addons/diamant/package.py:52
+#: view:package.sale.order:0
+#: field:package.sale.order,child_ids:0
+#, python-format
+msgid "Orders"
+msgstr "Заявки"
+
+#. module: diamant
+#: code:addons/diamant/base.py:264
+#: sql_constraint:res.partner:0
+#, python-format
+msgid "SNILS must be unique!"
+msgstr "СНИЛС должен быть уникальным"
+
+#. module: sale
+#: field:sale.order,partner_id:0
+#: field:sale.order.line,order_partner_id:0
+msgid "Customer"
+msgstr "Агент"

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report auto="False" id="report_m15" model="m15" name="m15"
+                rml="m15/report/m15.rml" string="M15"
+                usage="default"/>  
+    </data>
+</openerp>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <!-- Sequences for m15 -->
+        <record id="seq_type_m15" model="ir.sequence.type">
+            <field name="name">Outgoing DM Waybills</field>
+            <field name="code">m15</field>
+        </record>
+
+        <record id="seq_m15" model="ir.sequence">
+            <field name="name">Outgoing DM Waybills</field>
+            <field name="code">m15</field>
+            <field name="prefix">ДM</field>
+            <field name="padding">6</field>
+        </record>
+
+    </data>
+</openerp>
